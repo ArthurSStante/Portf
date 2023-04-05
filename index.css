@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Anuphan', sans-serif
 }
 body{
     width: 100%;
@@ -37,11 +37,11 @@ header .menu ul li{
 header .menu ul li a{ 
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #e0ccb9;
     transition: 0.5s ease;
 }
 header .menu ul li a:hover{
-    color: #156fc3;
+    color: #fff;
 }
 header .menu-mobile{
     display: none;
@@ -69,11 +69,11 @@ header .btn-mobile{
 #home .container .icone ion-icon{
     padding: 30px 0;
     font-size: 2rem;
-    color: #fff;
+    color: #f2d096;
     transition: 0.5s ease;
 }
 #home .container .icone ion-icon:hover{
-    color: #156fc3;
+    color: #fff;
 }
 #home .container .title{
     width: 100%;
@@ -85,24 +85,21 @@ header .btn-mobile{
     padding: 0 60px;
 }
 #home .container .title h1{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 8rem;
-    letter-spacing: 5px;
+    color: #f2d096; 
+    font-size: 5.8rem;
+    letter-spacing: 1px;
 }
 #home .container .title h2{
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 40px;
-    font-size: 3rem;
-    margin-left: 30px;
+    color: #f2d096;
+    letter-spacing: 1px;
+    font-size: 5.1rem;
 }
 #home .container .title h3{
-    color: #fff;
+    color: #f2d096;
     text-transform: uppercase;
     font-size: 1.2rem;
-    letter-spacing: 20px;
-    margin-top: 30px;
+    letter-spacing: 5px;
+    margin-top: 20px;
     margin-left: 35px;
 }
 
@@ -127,13 +124,13 @@ header .btn-mobile{
     padding: 0 60px;
 }
 #about .container .title h1{
-    color: #fff;
+    color:#e0ccb9;
     text-transform: uppercase;
     font-size: 2rem;
     text-align: left;
 }
 #about .container .title p{
-    color: #fff;
+    color: #e0ccb9;
     width: 500px;
     margin-top: 30px;
 }
@@ -146,38 +143,38 @@ header .btn-mobile{
     border-radius: 20px;
 }
 #about .container .box-title span{
-    color: #fff;
+    color: #e0ccb9;
 }
 #about .container .box-title .b1{
     width: 400px;
     height: 8px;
-    background: #fff;
+    background: #e0ccb9;
     margin-top: 2px;
     border-radius: 5px;
 }
 #about .container .box-title .b2{
-    width: 350px;
+    width: 180px;
     height: 8px;
-    background: #156fc3;
+    background: #034583;
     border-radius: 5px;
 
 }
 #about .container .box-title .b3{
-    width: 300px;
+    width: 200px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 
 }
 #about .container .box-title .b4{
-    width: 325px;
+    width: 120px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
 
 }
 #about .container .box-title .b5{
-    width: 257px;
+    width: 40px;
     height: 8px;
     background: #156fc3;
     border-radius: 5px;
