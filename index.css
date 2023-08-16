@@ -189,6 +189,7 @@ header .btn-mobile{
     border-radius: 5px;
 
 }
+
 /* Portfolio */
 #port .container{
     width: 100%;
@@ -218,6 +219,7 @@ header .btn-mobile{
     box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
     transition: 0.4s ease;
     cursor: pointer;
+    border-radius: 10px;
 }
 #port .container .card img{
     width: 100%;
@@ -285,6 +287,7 @@ header .btn-mobile{
     z-index: 1;
 }
 
+
 /* Contact */
 #contact .container{
     width: 100%;
@@ -313,7 +316,14 @@ header .btn-mobile{
     text-transform: uppercase;
 }
 #contact .content-contact .linha{
-    width: 350px;
+    width: 325px;
+    height: 3px;
+    background: #f0c171;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contact .content-contact .linha2{
+    width: 435px;
     height: 3px;
     background: #f0c171;
     margin-top: 10px;
